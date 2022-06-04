@@ -2,13 +2,14 @@
 main section {
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 #home-grid {
     display: grid;
 }
-#background {
+/* #background { 
     height: 725px;
-}
+} */
 body {
     background-color: #D3D0CB; 
     font-family: "Work Sans";
@@ -23,15 +24,16 @@ header {
     grid-template-columns: 150px auto;
 
 }
-.book, .join{
+ .book, .join{
     background-color: #D3D0CB; 
     border-radius: 5px;
-} 
+}  
 .book:hover, .join:hover {
     background-color: #D3D0CB; 
 }
 #background {
-    background-color: #279AF1;
+    height: 725px; /* */
+    background-color: #d9c2a3;
     grid-column: 1/11;
     grid-row: 4/9;  
 }
@@ -65,14 +67,6 @@ header {
 .button-box {
     text-align: center;
 }
-footer {
-    background-color: #D3D0CB;   
-    padding: 25px 50px;  
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 nav {
     display: flex;
     justify-content: space-around;
@@ -90,7 +84,6 @@ nav a:hover {
 }
 .home-title {
     margin-top: 10px;
-
     background-color: #60992D;
     color: #d9c2a3;
     font-size: 2em;
@@ -122,12 +115,15 @@ h4 {
     grid-row: 2/3;
 }
 .rivers-card {
+    grid-row: 2/3;
     grid-column: 2/4;
 }
 .camping-card {
+    grid-row: 2/3;
     grid-column: 5/7;    
 }
 .rapids-card {
+    grid-row: 2/3;
     grid-column: 8/10;      
 }
 .mountains {
@@ -144,6 +140,11 @@ main section img {
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
+    border-radius: 5px;
+ /*
+    background-color: #D3D0CB; 
+    border-radius: 5px; 
+*/
 }
 .book:hover, .join:hover {
     background-color: #60992D;
@@ -153,8 +154,8 @@ main section img {
     background-color: #D3D0CB; 
     line-height: 1.5em;
     padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;  
+    grid-column: 6/10; 
+    grid-row: 6/7;   
     box-shadow: 5px 5px 10px #6f7364;
 }
 .msg h2 {
@@ -167,6 +168,14 @@ main section img {
     color: #d9c2a3;
     font-size: .8em;
     padding-bottom: 15px;
+}
+footer {
+    background-color: #D3D0CB;   
+    padding: 25px 50px;  
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 footer h3 {
     background-color: #60992D;
