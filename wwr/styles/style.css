@@ -6,10 +6,10 @@ main section {
 }
 #home-grid {
     display: grid;
+
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
 }
-/* #background { 
-    height: 725px;
-} */
 body {
     background-color: #D3D0CB; 
     font-family: "Work Sans";
