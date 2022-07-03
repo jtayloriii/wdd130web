@@ -7,8 +7,9 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
   --primary-color: #2189BD  ;
   --secondary-color: #EED075 ;
-  --accent1-color: #253031;
+  --accent1-color: #1b3b6f;
   --accent2-color: #F7F3D4;
+  /* https://coolors.co/21295c-1b3b6f-065a82-1c7293-9eb3c2 */
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Work Sans";

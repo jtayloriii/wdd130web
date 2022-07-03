@@ -1,0 +1,44 @@
+.home-grid {
+    display: grid;
+    grid-template-rows: repeat(8, 12.5%);
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    background-color: #D3D0CB;
+    font-family: "Source Sans Pro";
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 220px auto;
+}
+.resume {
+    grid-column: 1 / 8;
+    grid-row: 1 / 7;
+}
+.logo {
+    width: 200px;
+    margin-bottom: 0px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: #1b3b6f;
+    padding: 35px;
+    margin-top: 40px;
+}
+footer {
+    background-color: #D3D0CB;   
+    padding: 25px 50px;  
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #1b3b6f;
+    font-size: 18px;
+}
