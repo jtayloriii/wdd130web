@@ -2,7 +2,7 @@
 .navbar {
     overflow: hidden;
     background-color: #D3D0CB;
-    font-family: "Source Sans Pro";
+    font-family: "Work Sans";
     margin-top: 65px;
     margin-left: 60px;
   }
@@ -85,7 +85,7 @@
 }
 header {
     background-color: #D3D0CB;
-    font-family: "Source Sans Pro";
+    font-family: "Work Sans";
     font-size: 25px;
     display: grid;
     grid-template-columns: 220px auto;
@@ -130,6 +130,7 @@ nav a {
 .edu_msg {
   grid-column: 4 / 8;
   grid-row: 3 / 6;
+  font-family: "Source Sans Pro";
 }
 .hydro {
   grid-column: 8 / 15;
@@ -138,6 +139,7 @@ nav a {
 .work1_msg {
   grid-column: 2 / 7;
   grid-row: 12 / 16;
+  font-family: "Source Sans Pro";
 }
 .kiribati_pic {
   grid-column: 2 / 7;
@@ -146,6 +148,7 @@ nav a {
 .work2_msg {
   grid-column: 12 / 16;
   grid-row: 21 / 25;
+  font-family: "Source Sans Pro";
 }
 footer {
     background-color: #D3D0CB;   
@@ -156,4 +159,31 @@ footer {
     align-items: center;
     color: #1b3b6f;
     font-size: 18px;
+}
+
+
+
+.paramotoring{
+  grid-column: 9 / 14;
+  grid-row: 3 / 11;
+}
+.paramotor {
+  max-width: 375px;
+}
+.intro {
+  grid-column: 3 / 8;
+  grid-row: 5 / 11;
+  font-family: "Source Sans Pro";
+}
+.sail_carib {
+  grid-column: 2 / 7;
+  grid-row: 18 / 20;
+}
+.sail {
+  max-width: 500px; 
+}
+.sailing {
+  grid-column: 10 / 14;
+  grid-row: 19 / 21;
+  font-family: "Source Sans Pro";
 }
