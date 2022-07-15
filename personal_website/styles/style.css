@@ -91,7 +91,7 @@ header {
     grid-template-columns: 220px auto;
 }
 .resume {
-    grid-column: 1 / 8;
+    grid-column: 3 / 8;
     grid-row: 1 / 7;
 }
 .logo {
